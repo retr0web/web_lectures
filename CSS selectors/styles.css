@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: brown;
+    padding: 5px;
+}
+
+h1, p, a {
+    font-weight: 500;
+}
+
+.heading {
+    color: cornflowerblue;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#my-id {
+    text-decoration: line-through;
+}
+
+.heading.bg-1 {
+    background-color: #ff9933;
+}
+
+.container .text {
+    background-color: crimson;
+    color: yellow;
+}
+
+.container > .text > strong {
+    color: black;
+}
+
+.container > .text {
+    text-align: end;
+}
+
+.button {
+    padding: 15px;
+    margin: 15px;
+    background-color: #3399ff;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff9933;
+    color: black;
+    font-weight: 800;
+}
+
+::selection {
+    background-color: gold;
+    color: darkblue;
+}
+
+[type="date"] {
+    padding: 10px;
+}
